@@ -1,0 +1,51 @@
+<!-- html 기본템플릿 단축키 1. html:5 or 2. !+enter -->
+<!-- ctrl +,- 로 화면 크기 조절 -->
+<!-- ctrl spacebar로 Emmet (태그) 활성화 -->
+<!-- ctrl / 로 각주 처리 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빠른 코딩(Emmet)</title>
+</head>
+<body>
+    <!-- div>h2{저녁반찬}+(ul>li*5>a{반찬$}) -->
+    <div>
+        <h2>저녁반찬</h2>
+        <ul>
+            <li><a href="">반찬1</a></li>
+            <li><a href="">반찬2</a></li>
+            <li><a href="">반찬3</a></li>
+            <li><a href="">반찬4</a></li>
+            <li><a href="">반찬5</a></li>
+        </ul>
+    </div>
+    <!-- header#hd>nav#gnb>ul>li*6>a{메뉴$} -->
+    <!-- # : 아이디  . : 클래스 -->
+    <header id="hd">
+        <nav id="gnb">
+            <ul>
+                <li><a href="">메뉴1</a></li>
+                <li><a href="">메뉴2</a></li>
+                <li><a href="">메뉴3</a></li>
+                <li><a href="">메뉴4</a></li>
+                <li><a href="">메뉴5</a></li>
+                <li><a href="">메뉴6</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- figure#vs1>ul>li.item$*4>img[src=img$.jpg][alt=이미지$] -->
+    <figure id="vs1">
+        <ul>
+            <li class="item1"><img src="img1.jpg" alt="이미지1"></li>
+            <li class="item2"><img src="img2.jpg" alt="이미지2"></li>
+            <li class="item3"><img src="img3.jpg" alt="이미지3"></li>
+            <li class="item4"><img src="img4.jpg" alt="이미지4"></li>
+        </ul>
+    </figure>
+    
+</body>
+</html>
